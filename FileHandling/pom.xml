@@ -23,4 +23,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DG-PC-releases</name>
+        <url>http://localhost:8082/artifactory/libs-snapshot</url>
+    </repository>
+</distributionManagement>
+
 </project>
