@@ -24,6 +24,7 @@ public class App {
 		final MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
 		registerMBean(mbs, mbeanObjectNameStr, ShutDownImpl.class);
 
+		
 		FileSearch search = new FileSearch();
 		search.startFileMonitor();
 	}
