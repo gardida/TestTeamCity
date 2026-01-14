@@ -19,10 +19,7 @@ public class FileSearch {
 
 	public void startFileMonitor() {
 
-		
-		
-		
-		
+				
 //		try {
 //			WatchService watcher = FileSystems.getDefault().newWatchService();
 //			Path dir = FileSystems.getDefault().getPath("data/test");
