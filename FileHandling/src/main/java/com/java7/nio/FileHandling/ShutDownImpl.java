@@ -6,6 +6,8 @@ public class ShutDownImpl implements ShutDownMXBean {
 	public void shutDown() {
 		System.out.println("shutting down...");
 		App.shutdown = true;
+		
+		
 	}
 
 	
